@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="abdulTest.Listeners"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="EzionTests(failed)">
+    <classes>
+      <class name="TestComponents.SalesReturn2">
+        <methods>
+          <include name="SalesReturn2_CreateSales"/>
+          <include name="loginPage"/>
+          <include name="SalesReturn2_SearchBill"/>
+          <include name="SalesReturn2_ProcessReturn"/>
+          <include name="SalesReturn2_Login"/>
+        </methods>
+      </class> <!-- TestComponents.SalesReturn2 -->
+      <class name="TestComponents.PharmacyLogin2">
+        <methods>
+          <include name="PharmacyLogin2_ShouldAddHospitalLocationToSystem"/>
+          <include name="PharmacyLogin2_ShouldAssignRolesToUser"/>
+          <include name="PharmacyLogin2_ShouldAddMedicineToShelf"/>
+          <include name="PharmacyLogin2_ShouldAddCustomerToPharmacy"/>
+          <include name="PharmacyLogin2_ShouldCreateStoreForWarehouse"/>
+          <include name="PharmacyLogin2_ShouldLoginSuccessfullyForUser"/>
+          <include name="PharmacyLogin2_ShouldAddPharmacyLocationToSystem"/>
+          <include name="PharmacyLogin2_ShouldCreateSupplierForStore"/>
+          <include name="PharmacyLogin2_ShouldCreateStorageShelfForSupplier"/>
+          <include name="loginPage"/>
+          <include name="PharmacyLogin2_ShouldCreateWarehouseForMasterSetup"/>
+        </methods>
+      </class> <!-- TestComponents.PharmacyLogin2 -->
+      <class name="TestComponents.LowStockChecker2">
+        <methods>
+          <include name="LowStockChecker2_ShouldAddOpeningStockForValidation"/>
+          <include name="LowStockChecker2_ShouldAddMedicineWithLowStockThreshold"/>
+          <include name="loginPage"/>
+          <include name="LowStockChecker2_ShouldLoginToSystem" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestComponents.LowStockChecker2 -->
+      <class name="TestComponents.IndentFlow2">
+        <methods>
+          <include name="IndentFlow2_ShouldCreateIndentRequestForLocation"/>
+          <include name="IndentFlow2_ShouldLoginAndNavigateToIndentPage" invocation-numbers="0"/>
+          <include name="IndentFlow2_ShouldApproveIndentRequest"/>
+          <include name="loginPage"/>
+          <include name="IndentFlow2_ShouldEditIndentAndSendRequest"/>
+        </methods>
+      </class> <!-- TestComponents.IndentFlow2 -->
+      <class name="TestComponents.PharmacyPurchaseOrder2">
+        <methods>
+          <include name="PharmacyPurchaseOrder2_CreateAndSavePO"/>
+          <include name="PharmacyPurchaseOrder2_ApproveFirstTabPO"/>
+          <include name="PharmacyPurchaseOrder2_Login"/>
+          <include name="PharmacyPurchaseOrder2_VerifyPOInTrackingPage"/>
+          <include name="loginPage"/>
+          <include name="PharmacyPurchaseOrder2_FillPurchaseForm"/>
+          <include name="PharmacyPurchaseOrder2_EditSecondTabPO"/>
+        </methods>
+      </class> <!-- TestComponents.PharmacyPurchaseOrder2 -->
+      <class name="TestComponents.ExcessStockChecker2">
+        <methods>
+          <include name="ExcessStockChecker2_ShouldLoginSuccessfullyForUser"/>
+          <include name="ExcessStockChecker2_ShouldAddOpeningStockToMedicine"/>
+          <include name="loginPage"/>
+          <include name="ExcessStockChecker2_ShouldAddMedicineForExcessStockValidation"/>
+        </methods>
+      </class> <!-- TestComponents.ExcessStockChecker2 -->
+      <class name="TestComponents.StockTransfer2">
+        <methods>
+          <include name="StockTransfer2_Login"/>
+          <include name="StockTransfer2_ExecuteStockTransfer"/>
+          <include name="loginPage"/>
+          <include name="StockTransfer2_NavigateToIndent"/>
+        </methods>
+      </class> <!-- TestComponents.StockTransfer2 -->
+      <class name="TestComponents.PharmacyPurchaseReturn2">
+        <methods>
+          <include name="PharmacyPurchaseReturn2_CreatePurchase"/>
+          <include name="PharmacyPurchaseReturn2_GetGRN"/>
+          <include name="PharmacyPurchaseReturn2_Login"/>
+          <include name="loginPage"/>
+          <include name="PharmacyPurchaseReturn2_CreateReturn"/>
+        </methods>
+      </class> <!-- TestComponents.PharmacyPurchaseReturn2 -->
+    </classes>
+  </test> <!-- EzionTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

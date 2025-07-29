@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="8" parallel="methods" data-provider-thread-count="8" name="Failed suite [Pharmacy_Negative_Tests]" guice-stage="DEVELOPMENT">
+  <parameter name="environment" value="qa"/>
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="8" parallel="methods" name="Negative_Test_Scenarios(failed)">
+    <groups>
+      <run>
+        <include name="negative"/>
+        <exclude name="broken"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestComponents.NegativeTestCases">
+        <methods>
+          <include name="Login30" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="Login19" invocation-numbers="0"/>
+          <include name="Login18" invocation-numbers="0"/>
+          <include name="Login12" invocation-numbers="0"/>
+          <include name="Login15" invocation-numbers="0"/>
+          <include name="Login14" invocation-numbers="0"/>
+          <include name="Login17" invocation-numbers="0"/>
+          <include name="Login11" invocation-numbers="0"/>
+          <include name="Login10" invocation-numbers="0"/>
+          <include name="Login13" invocation-numbers="0"/>
+          <include name="Login31" invocation-numbers="0"/>
+          <include name="Login16" invocation-numbers="0"/>
+          <include name="loginPage"/>
+          <include name="Login7" invocation-numbers="0"/>
+          <include name="Login2" invocation-numbers="0"/>
+          <include name="Login4" invocation-numbers="0"/>
+          <include name="Login3" invocation-numbers="0"/>
+          <include name="Login6" invocation-numbers="0"/>
+          <include name="Login29" invocation-numbers="0"/>
+          <include name="Login5" invocation-numbers="0"/>
+          <include name="Login23" invocation-numbers="0"/>
+          <include name="Login9" invocation-numbers="0"/>
+          <include name="Login25" invocation-numbers="0"/>
+          <include name="Login28" invocation-numbers="0"/>
+          <include name="Login22" invocation-numbers="0"/>
+          <include name="Login21" invocation-numbers="0"/>
+          <include name="Login24" invocation-numbers="0"/>
+          <include name="Login20" invocation-numbers="0"/>
+          <include name="Login27" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestComponents.NegativeTestCases -->
+    </classes>
+  </test> <!-- Negative_Test_Scenarios(failed) -->
+</suite> <!-- Failed suite [Pharmacy_Negative_Tests] -->

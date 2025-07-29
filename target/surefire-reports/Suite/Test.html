@@ -1,0 +1,265 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>37/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 28 11:14:06 UTC 2025</td>
+</tr>
+<tr><td>Total time:</td><td>298 seconds (298083 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestComponents.PharmacyPurchaseReturn2.PharmacyPurchaseReturn2_Login()'><b>PharmacyPurchaseReturn2_Login</b><br>Test class: TestComponents.PharmacyPurchaseReturn2<br>Parameters: {batchNo=4, quantity=1, freeStrips=5, dueDate=06/12/2025, mrp=25, userId=50107299, strips=4, expiryDate=2027-07, password=12345, itemName=syrup14 , price=25, review=damaged not usable, supplier=supplier name, personId=7766554433, location=Pharamacy Loaction, invDate=06/12/2025}</td>
+<td></td>
+<td>0</td>
+<td>TestComponents.PharmacyPurchaseReturn2@7a35b0f5</td></tr>
+<tr>
+<td title='TestComponents.PharmacyLogin2.PharmacyLogin2_ShouldAddHospitalLocationToSystem()'><b>PharmacyLogin2_ShouldAddHospitalLocationToSystem</b><br>Test class: TestComponents.PharmacyLogin2</td>
+<td></td>
+<td>12</td>
+<td>TestComponents.PharmacyLogin2@72035809</td></tr>
+<tr>
+<td title='TestComponents.PharmacyLogin2.PharmacyLogin2_ShouldAssignRolesToUser()'><b>PharmacyLogin2_ShouldAssignRolesToUser</b><br>Test class: TestComponents.PharmacyLogin2</td>
+<td></td>
+<td>7</td>
+<td>TestComponents.PharmacyLogin2@72035809</td></tr>
+<tr>
+<td title='TestComponents.StockTransfer2.StockTransfer2_NavigateToIndent()'><b>StockTransfer2_NavigateToIndent</b><br>Test class: TestComponents.StockTransfer2</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.StockTransfer2@68c9133c</td></tr>
+<tr>
+<td title='TestComponents.IndentFlow2.IndentFlow2_ShouldLoginAndNavigateToIndentPage()'><b>IndentFlow2_ShouldLoginAndNavigateToIndentPage</b><br>Test class: TestComponents.IndentFlow2<br>Parameters: {password=12345, quantity=5, medicineCardTitle=Medidine Ezovion, personId=7766554433, location=Pharamacy Loaction, RequestedBy=Fddf, department=Dddd, userId=50107299}</td>
+<td></td>
+<td>4</td>
+<td>TestComponents.IndentFlow2@48075da3</td></tr>
+<tr>
+<td title='TestComponents.LowStockChecker2.LowStockChecker2_ShouldAddOpeningStockForValidation()'><b>LowStockChecker2_ShouldAddOpeningStockForValidation</b><br>Test class: TestComponents.LowStockChecker2</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.LowStockChecker2@5b218417</td></tr>
+<tr>
+<td title='TestComponents.PharmacyLogin2.PharmacyLogin2_ShouldCreateWarehouseForMasterSetup()'><b>PharmacyLogin2_ShouldCreateWarehouseForMasterSetup</b><br>Test class: TestComponents.PharmacyLogin2</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.PharmacyLogin2@72035809</td></tr>
+<tr>
+<td title='TestComponents.SalesReturn2.SalesReturn2_CreateSales()'><b>SalesReturn2_CreateSales</b><br>Test class: TestComponents.SalesReturn2</td>
+<td></td>
+<td>7</td>
+<td>TestComponents.SalesReturn2@5e2c3d18</td></tr>
+<tr>
+<td title='TestComponents.PharmacyPurchaseReturn2.PharmacyPurchaseReturn2_CreateReturn()'><b>PharmacyPurchaseReturn2_CreateReturn</b><br>Test class: TestComponents.PharmacyPurchaseReturn2</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.PharmacyPurchaseReturn2@7a35b0f5</td></tr>
+<tr>
+<td title='TestComponents.PharmacyLogin2.PharmacyLogin2_ShouldAddMedicineToShelf()'><b>PharmacyLogin2_ShouldAddMedicineToShelf</b><br>Test class: TestComponents.PharmacyLogin2</td>
+<td></td>
+<td>8</td>
+<td>TestComponents.PharmacyLogin2@72035809</td></tr>
+<tr>
+<td title='TestComponents.SalesReturn2.SalesReturn2_Login()'><b>SalesReturn2_Login</b><br>Test class: TestComponents.SalesReturn2<br>Parameters: {password=12345, doctorName=Dr.  Ramiz, quantity=4, mobile=9876543210, discount=10, personId=7766554433, userId=50107299, customerName=abdul ramiz, medicineName=Medidine Ezovion}</td>
+<td></td>
+<td>0</td>
+<td>TestComponents.SalesReturn2@5e2c3d18</td></tr>
+<tr>
+<td title='TestComponents.PharmacyPurchaseReturn2.PharmacyPurchaseReturn2_GetGRN()'><b>PharmacyPurchaseReturn2_GetGRN</b><br>Test class: TestComponents.PharmacyPurchaseReturn2</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.PharmacyPurchaseReturn2@7a35b0f5</td></tr>
+<tr>
+<td title='TestComponents.PharmacyPurchaseOrder2.PharmacyPurchaseOrder2_EditSecondTabPO()'><b>PharmacyPurchaseOrder2_EditSecondTabPO</b><br>Test class: TestComponents.PharmacyPurchaseOrder2</td>
+<td></td>
+<td>0</td>
+<td>TestComponents.PharmacyPurchaseOrder2@2cb4893b</td></tr>
+<tr>
+<td title='TestComponents.LowStockChecker2.LowStockChecker2_ShouldLoginToSystem()'><b>LowStockChecker2_ShouldLoginToSystem</b><br>Test class: TestComponents.LowStockChecker2<br>Parameters: {scheduleText=Schedule A1, compositionText=Bisacodyl Ip: 5, manufacturerText=ajhj, quantity=5000, brandText=CALTEN, qtyInStrips=4, expiryMonthYear=2025-07, categoryText=SHOULDER IMBO, qtyInUnits=4, userId=50107299, pricePerStrips=4, mrpPerStrip=4, password=12345, baseMedicineName=SyrupEzovion, sellPriceStrip=4, rackText=0, personId=7766554433, location=Pharamacy Loaction, maxQty=50, minQty=10, batchNumber=456}</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.LowStockChecker2@5b218417</td></tr>
+<tr>
+<td title='TestComponents.PharmacyLogin2.PharmacyLogin2_ShouldCreateStoreForWarehouse()'><b>PharmacyLogin2_ShouldCreateStoreForWarehouse</b><br>Test class: TestComponents.PharmacyLogin2</td>
+<td></td>
+<td>21</td>
+<td>TestComponents.PharmacyLogin2@72035809</td></tr>
+<tr>
+<td title='TestComponents.PharmacyLogin2.PharmacyLogin2_ShouldAddCustomerToPharmacy()'><b>PharmacyLogin2_ShouldAddCustomerToPharmacy</b><br>Test class: TestComponents.PharmacyLogin2</td>
+<td></td>
+<td>12</td>
+<td>TestComponents.PharmacyLogin2@72035809</td></tr>
+<tr>
+<td title='TestComponents.IndentFlow2.IndentFlow2_ShouldApproveIndentRequest()'><b>IndentFlow2_ShouldApproveIndentRequest</b><br>Test class: TestComponents.IndentFlow2</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.IndentFlow2@48075da3</td></tr>
+<tr>
+<td title='TestComponents.SalesReturn2.SalesReturn2_ProcessReturn()'><b>SalesReturn2_ProcessReturn</b><br>Test class: TestComponents.SalesReturn2</td>
+<td></td>
+<td>21</td>
+<td>TestComponents.SalesReturn2@5e2c3d18</td></tr>
+<tr>
+<td title='TestComponents.PharmacyLogin2.PharmacyLogin2_ShouldLoginSuccessfullyForUser()'><b>PharmacyLogin2_ShouldLoginSuccessfullyForUser</b><br>Test class: TestComponents.PharmacyLogin2<br>Parameters: {country=India, pharmacyLocationName=akola, hospitalEmail=abdy@gmail.com, role=Administrator, city=akola, brandText=	CALTEN, pharmacyMobile=9875543210, storename=ezovion, section=Pharmacy, warehouseName=Taj Nagar Old City, warehouseCode=PWD, shelfName=new item, password=12345, customerPhone=9776543210, rackText=0, state=Chamoli, supplierName=supplier name, pincode=444002, scheduleText=Schedule A1, compositionText= Bisacodyl Ip: 5 , hospitalLocationName=akol, quantity=3, manufacturerText=ajhj, mobile=9876543210, userName=Abdul Ramiz, categoryText= SHOULDER IMBO, userId=50107299, section2=Inventory, medicineName=Medidine Ezovion, customerName=abdul1, warehouseShortName=PWR, phone=9876543210, hospitalMobile=9886543210, personId=7766554433, stateCode=1 jop}</td>
+<td></td>
+<td>0</td>
+<td>TestComponents.PharmacyLogin2@72035809</td></tr>
+<tr>
+<td title='TestComponents.IndentFlow2.IndentFlow2_ShouldCreateIndentRequestForLocation()'><b>IndentFlow2_ShouldCreateIndentRequestForLocation</b><br>Test class: TestComponents.IndentFlow2</td>
+<td></td>
+<td>1</td>
+<td>TestComponents.IndentFlow2@48075da3</td></tr>
+<tr>
+<td title='TestComponents.PharmacyPurchaseOrder2.PharmacyPurchaseOrder2_FillPurchaseForm()'><b>PharmacyPurchaseOrder2_FillPurchaseForm</b><br>Test class: TestComponents.PharmacyPurchaseOrder2</td>
+<td></td>
+<td>12</td>
+<td>TestComponents.PharmacyPurchaseOrder2@2cb4893b</td></tr>
+<tr>
+<td title='TestComponents.PharmacyLogin2.PharmacyLogin2_ShouldAddPharmacyLocationToSystem()'><b>PharmacyLogin2_ShouldAddPharmacyLocationToSystem</b><br>Test class: TestComponents.PharmacyLogin2</td>
+<td></td>
+<td>12</td>
+<td>TestComponents.PharmacyLogin2@72035809</td></tr>
+<tr>
+<td title='TestComponents.ExcessStockChecker2.ExcessStockChecker2_ShouldAddMedicineForExcessStockValidation()'><b>ExcessStockChecker2_ShouldAddMedicineForExcessStockValidation</b><br>Test class: TestComponents.ExcessStockChecker2</td>
+<td></td>
+<td>20</td>
+<td>TestComponents.ExcessStockChecker2@cc43f62</td></tr>
+<tr>
+<td title='TestComponents.PharmacyPurchaseReturn2.PharmacyPurchaseReturn2_CreatePurchase()'><b>PharmacyPurchaseReturn2_CreatePurchase</b><br>Test class: TestComponents.PharmacyPurchaseReturn2</td>
+<td></td>
+<td>14</td>
+<td>TestComponents.PharmacyPurchaseReturn2@7a35b0f5</td></tr>
+<tr>
+<td title='TestComponents.IndentFlow2.IndentFlow2_ShouldEditIndentAndSendRequest()'><b>IndentFlow2_ShouldEditIndentAndSendRequest</b><br>Test class: TestComponents.IndentFlow2</td>
+<td></td>
+<td>0</td>
+<td>TestComponents.IndentFlow2@48075da3</td></tr>
+<tr>
+<td title='TestComponents.StockTransfer2.StockTransfer2_ExecuteStockTransfer()'><b>StockTransfer2_ExecuteStockTransfer</b><br>Test class: TestComponents.StockTransfer2</td>
+<td></td>
+<td>2</td>
+<td>TestComponents.StockTransfer2@68c9133c</td></tr>
+<tr>
+<td title='TestComponents.ExcessStockChecker2.ExcessStockChecker2_ShouldLoginSuccessfullyForUser()'><b>ExcessStockChecker2_ShouldLoginSuccessfullyForUser</b><br>Test class: TestComponents.ExcessStockChecker2<br>Parameters: {scheduleText=Schedule A1, compositionText=Bisacodyl Ip: 5, manufacturerText=ajhj, quantity=5000, brandText=CALTEN, qtyInStrips=4, expiryMonthYear=2025-07, categoryText=SHOULDER IMBO, qtyInUnits=4, userId=50107299, pricePerStrips=4, mrpPerStrip=4, password=12345, baseMedicineName=SyrupEzovion, sellPriceStrip=4, rackText=0, personId=7766554433, location=Pharamacy Loaction, maxQty=50, minQty=10, batchNumber=456}</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.ExcessStockChecker2@cc43f62</td></tr>
+<tr>
+<td title='TestComponents.ExcessStockChecker2.ExcessStockChecker2_ShouldAddOpeningStockToMedicine()'><b>ExcessStockChecker2_ShouldAddOpeningStockToMedicine</b><br>Test class: TestComponents.ExcessStockChecker2</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.ExcessStockChecker2@cc43f62</td></tr>
+<tr>
+<td title='TestComponents.PharmacyLogin2.PharmacyLogin2_ShouldCreateStorageShelfForSupplier()'><b>PharmacyLogin2_ShouldCreateStorageShelfForSupplier</b><br>Test class: TestComponents.PharmacyLogin2</td>
+<td></td>
+<td>12</td>
+<td>TestComponents.PharmacyLogin2@72035809</td></tr>
+<tr>
+<td title='TestComponents.LowStockChecker2.LowStockChecker2_ShouldAddMedicineWithLowStockThreshold()'><b>LowStockChecker2_ShouldAddMedicineWithLowStockThreshold</b><br>Test class: TestComponents.LowStockChecker2</td>
+<td></td>
+<td>24</td>
+<td>TestComponents.LowStockChecker2@5b218417</td></tr>
+<tr>
+<td title='TestComponents.PharmacyPurchaseOrder2.PharmacyPurchaseOrder2_Login()'><b>PharmacyPurchaseOrder2_Login</b><br>Test class: TestComponents.PharmacyPurchaseOrder2<br>Parameters: {supplierName=Supplier Name 9, pharmacyLocation=Pharamacy Loaction, secondTabStatus=Waiting, userName=Fddf, invoiceDate=06/12/2025, userId=50107299, invoiceDueDate=06/12/2025, medicineName=medicine1syrup, expiryDate=2027-07, password=12345, invoiceNumber=100, statusToEdit=New, personId=7766554433, deliveryDate=07/12/2025, batchNumber=4}</td>
+<td></td>
+<td>0</td>
+<td>TestComponents.PharmacyPurchaseOrder2@2cb4893b</td></tr>
+<tr>
+<td title='TestComponents.PharmacyLogin2.PharmacyLogin2_ShouldCreateSupplierForStore()'><b>PharmacyLogin2_ShouldCreateSupplierForStore</b><br>Test class: TestComponents.PharmacyLogin2</td>
+<td></td>
+<td>3</td>
+<td>TestComponents.PharmacyLogin2@72035809</td></tr>
+<tr>
+<td title='TestComponents.PharmacyPurchaseOrder2.PharmacyPurchaseOrder2_CreateAndSavePO()'><b>PharmacyPurchaseOrder2_CreateAndSavePO</b><br>Test class: TestComponents.PharmacyPurchaseOrder2</td>
+<td></td>
+<td>5</td>
+<td>TestComponents.PharmacyPurchaseOrder2@2cb4893b</td></tr>
+<tr>
+<td title='TestComponents.PharmacyPurchaseOrder2.PharmacyPurchaseOrder2_ApproveFirstTabPO()'><b>PharmacyPurchaseOrder2_ApproveFirstTabPO</b><br>Test class: TestComponents.PharmacyPurchaseOrder2</td>
+<td></td>
+<td>0</td>
+<td>TestComponents.PharmacyPurchaseOrder2@2cb4893b</td></tr>
+<tr>
+<td title='TestComponents.PharmacyPurchaseOrder2.PharmacyPurchaseOrder2_VerifyPOInTrackingPage()'><b>PharmacyPurchaseOrder2_VerifyPOInTrackingPage</b><br>Test class: TestComponents.PharmacyPurchaseOrder2</td>
+<td></td>
+<td>0</td>
+<td>TestComponents.PharmacyPurchaseOrder2@2cb4893b</td></tr>
+<tr>
+<td title='TestComponents.StockTransfer2.StockTransfer2_Login()'><b>StockTransfer2_Login</b><br>Test class: TestComponents.StockTransfer2<br>Parameters: {password=12345, transferStatus=Approved, quantity=4, transferBy=Fddf, destinationLocation=Pharamacy Loaction, personId=7766554433, issueDate=06/25/2025, userId=50107299, destinationWarehouse=primary warehouse, medicineName=medicine1syrup}</td>
+<td></td>
+<td>0</td>
+<td>TestComponents.StockTransfer2@68c9133c</td></tr>
+<tr>
+<td title='TestComponents.SalesReturn2.SalesReturn2_SearchBill()'><b>SalesReturn2_SearchBill</b><br>Test class: TestComponents.SalesReturn2</td>
+<td></td>
+<td>0</td>
+<td>TestComponents.SalesReturn2@5e2c3d18</td></tr>
+</table><p>
+</body>
+</html>

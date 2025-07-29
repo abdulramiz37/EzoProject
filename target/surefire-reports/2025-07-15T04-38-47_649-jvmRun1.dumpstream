@@ -1,0 +1,9 @@
+# Created at 2025-07-15T04:43:22.438
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'dPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}'.
+
+# Created at 2025-07-15T04:43:31.817
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51466/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}'.
+
+# Created at 2025-07-15T04:43:31.817
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Element: [[EdgeDriver: MicrosoftEdge on windows (44338f79765bd0484c13ba560615be5c)] -> xpath: //span[text()='Pharmacy']]'.
+

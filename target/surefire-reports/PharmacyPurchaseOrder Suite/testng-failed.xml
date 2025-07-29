@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PharmacyPurchaseOrder Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="abdulTest.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="PharmacyPurchaseOrder Test(failed)" verbose="0">
+    <classes>
+      <class name="TestComponents.PharmacyPurchaseOrder2">
+        <methods>
+          <include name="PharmacyPurchaseOrder2_CreateAndSavePO"/>
+          <include name="PharmacyPurchaseOrder2_ApproveFirstTabPO"/>
+          <include name="PharmacyPurchaseOrder2_Login"/>
+          <include name="PharmacyPurchaseOrder2_VerifyPOInTrackingPage"/>
+          <include name="loginPage"/>
+          <include name="PharmacyPurchaseOrder2_FillPurchaseForm"/>
+          <include name="PharmacyPurchaseOrder2_EditSecondTabPO"/>
+        </methods>
+      </class> <!-- TestComponents.PharmacyPurchaseOrder2 -->
+    </classes>
+  </test> <!-- PharmacyPurchaseOrder Test(failed) -->
+</suite> <!-- Failed suite [PharmacyPurchaseOrder Suite] -->

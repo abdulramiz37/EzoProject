@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ExcessStockChecker Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="abdulTest.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ExcessStockChecker Test(failed)" verbose="0">
+    <classes>
+      <class name="TestComponents.ExcessStockChecker2">
+        <methods>
+          <include name="ExcessStockChecker2_ShouldLoginSuccessfullyForUser" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="ExcessStockChecker2_ShouldAddOpeningStockToMedicine"/>
+          <include name="loginPage"/>
+          <include name="ExcessStockChecker2_ShouldAddMedicineForExcessStockValidation"/>
+        </methods>
+      </class> <!-- TestComponents.ExcessStockChecker2 -->
+    </classes>
+  </test> <!-- ExcessStockChecker Test(failed) -->
+</suite> <!-- Failed suite [ExcessStockChecker Suite] -->

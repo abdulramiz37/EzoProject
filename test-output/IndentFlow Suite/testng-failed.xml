@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IndentFlow Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="abdulTest.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="IndentFlow Test(failed)">
+    <classes>
+      <class name="TestComponents.IndentFlow2">
+        <methods>
+          <include name="IndentFlow2_ShouldCreateIndentRequestForLocation"/>
+          <include name="IndentFlow2_ShouldLoginAndNavigateToIndentPage"/>
+          <include name="IndentFlow2_ShouldApproveIndentRequest"/>
+          <include name="loginPage"/>
+          <include name="IndentFlow2_ShouldEditIndentAndSendRequest"/>
+        </methods>
+      </class> <!-- TestComponents.IndentFlow2 -->
+    </classes>
+  </test> <!-- IndentFlow Test(failed) -->
+</suite> <!-- Failed suite [IndentFlow Suite] -->

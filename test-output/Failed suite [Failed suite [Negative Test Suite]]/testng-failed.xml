@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Failed suite [Failed suite [Negative Test Suite]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Run Login7(failed)(failed)(failed)">
+    <groups>
+      <run>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestComponents.NegativeTestCases">
+        <methods>
+          <include name="Login7" invocation-numbers="0"/>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- TestComponents.NegativeTestCases -->
+    </classes>
+  </test> <!-- Run Login7(failed)(failed)(failed) -->
+  <test thread-count="1" name="Run Login8(failed)(failed)(failed)">
+    <groups>
+      <run>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestComponents.NegativeTestCases">
+        <methods>
+          <include name="loginPage"/>
+          <include name="Login8" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestComponents.NegativeTestCases -->
+    </classes>
+  </test> <!-- Run Login8(failed)(failed)(failed) -->
+  <test thread-count="1" name="Run Login17(failed)(failed)(failed)">
+    <groups>
+      <run>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestComponents.NegativeTestCases">
+        <methods>
+          <include name="Login17" invocation-numbers="0"/>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- TestComponents.NegativeTestCases -->
+    </classes>
+  </test> <!-- Run Login17(failed)(failed)(failed) -->
+  <test thread-count="1" name="Run Login18(failed)(failed)(failed)">
+    <groups>
+      <run>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestComponents.NegativeTestCases">
+        <methods>
+          <include name="loginPage"/>
+          <include name="Login18" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestComponents.NegativeTestCases -->
+    </classes>
+  </test> <!-- Run Login18(failed)(failed)(failed) -->
+  <test thread-count="1" name="Run Login26(failed)(failed)(failed)">
+    <groups>
+      <run>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestComponents.NegativeTestCases">
+        <methods>
+          <include name="Login26" invocation-numbers="0"/>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- TestComponents.NegativeTestCases -->
+    </classes>
+  </test> <!-- Run Login26(failed)(failed)(failed) -->
+  <test thread-count="1" name="Run Login29(failed)(failed)(failed)">
+    <groups>
+      <run>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestComponents.NegativeTestCases">
+        <methods>
+          <include name="loginPage"/>
+          <include name="Login29" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestComponents.NegativeTestCases -->
+    </classes>
+  </test> <!-- Run Login29(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Negative Test Suite]]] -->

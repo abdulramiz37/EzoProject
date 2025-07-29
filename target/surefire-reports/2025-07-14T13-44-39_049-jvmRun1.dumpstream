@@ -1,0 +1,6 @@
+# Created at 2025-07-14T13:49:18.620
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'andledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}'.
+
+# Created at 2025-07-14T13:50:04.428
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'dPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}'.
+
