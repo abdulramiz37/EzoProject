@@ -6,15 +6,12 @@
   </listeners>
   <test thread-count="5" name="IndentFlow Test(failed)">
     <classes>
-      <class name="TestComponents.IndentFlow2">
+      <class name="TestComponents.AppointMentBooking">
         <methods>
-          <include name="IndentFlow2_ShouldCreateIndentRequestForLocation"/>
-          <include name="IndentFlow2_ShouldLoginAndNavigateToIndentPage"/>
-          <include name="IndentFlow2_ShouldApproveIndentRequest"/>
           <include name="loginPage"/>
-          <include name="IndentFlow2_ShouldEditIndentAndSendRequest"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- TestComponents.IndentFlow2 -->
+      </class> <!-- TestComponents.AppointMentBooking -->
     </classes>
   </test> <!-- IndentFlow Test(failed) -->
 </suite> <!-- Failed suite [IndentFlow Suite] -->
