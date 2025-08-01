@@ -71,15 +71,18 @@ public class BaseTest {
 	    TakesScreenshot ts = (TakesScreenshot) driver;
 	    File source = ts.getScreenshotAs(OutputType.FILE);
 
-	    // Add timestamp to the test case name
 	    String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-	    String screenshotPath = System.getProperty("user.dir") + "//reports//" + testCaseName + "_" + timestamp + ".png";
+	    String screenshotName = testCaseName + "_" + timestamp + ".png";
 
-	    File destination = new File(screenshotPath);
+	    // Save under reports/screenshots/
+	    String screenshotDir = System.getProperty("user.dir") + "//reports//screenshots//";
+	    File destination = new File(screenshotDir + screenshotName);
 	    FileUtils.copyFile(source, destination);
 
-	    return screenshotPath;
+	    // Return relative path for Jenkins to render it in the HTML
+	    return "screenshots/" + screenshotName;
 	}
+
 	@SuppressWarnings("deprecation")
 	public List<HashMap<String, String>> getJsonDataToMap(String filePath) throws IOException
 	{
