@@ -16,7 +16,7 @@ public class ExtentReportNg {
 		reporter.config().setOfflineMode(true);
 		reporter.config().setReportName("Ezion Automation Results");
 		reporter.config().setDocumentTitle("Test Results");
-		reporter.config().setTimeStampFormat("dd/MM/yyyy HH:mm:ss"); // ✅ Fix time display
+		reporter.config().setTimeStampFormat("dd/MM/yyyy HH:mm:ss"); // ✅ Fix time 
 
 		
 		ExtentReports extent =new ExtentReports();
